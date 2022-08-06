@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "advtoolcraft:pickaxe_sandbox"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "item": "advtoolcraft:pickaxe_head"
+    }
+  ]
+}

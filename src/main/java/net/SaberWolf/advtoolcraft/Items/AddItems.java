@@ -12,7 +12,8 @@ public class  AddItems {
     public static final Item COAL_CHUNK = registerItem("coal_chunk", new Item(new FabricItemSettings().group(AdvToolCraft.ADV_CRAFT)));
     public static final Item GOLD_CHUNK = registerItem("gold_chunk", new Item(new FabricItemSettings().group(AdvToolCraft.ADV_CRAFT)));
     public static final Item COPPER_CHUNK = registerItem("copper_chunk", new Item(new FabricItemSettings().group(AdvToolCraft.ADV_CRAFT)));
-
+    public static final Item PICKAXE_SANDBOX = registerItem("pickaxe_sandbox", new Item(new FabricItemSettings().group(AdvToolCraft.ADV_CRAFT)));
+    public static final Item PICKAXE_HEAD = registerItem("pickaxe_head", new Item(new FabricItemSettings().group(AdvToolCraft.ADV_CRAFT)));
     private static Item registerItem(String name,Item item){
         return Registry.register(Registry.ITEM, new Identifier(AdvToolCraft.Mod_ID,name), item);
     }
