@@ -1,6 +1,10 @@
 {
   "item.advtoolcraft.gold_chunk":"Gold chunk",
   "item.advtoolcraft.iron_chunk":"Iron chunk",
-  "item.advtoolcraft.copper_chunk":"Copper chunk"
-
+  "item.advtoolcraft.copper_chunk":"Copper chunk",
+  "item.advtoolcraft.coal_chunk":"Coal chunk",
+  "block.advtoolcraft.iron_vein": "Iron vein",
+  "block.advtoolcraft.copper_vein": "Copper vein",
+  "block.advtoolcraft.gold_vein": "Gold vein",
+  "block.advtoolcraft.coal_vein": "Coal vein"
 }
