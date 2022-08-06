@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "advtoolcraft:copper_chunk",
+      "amount": 2
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ]
+}

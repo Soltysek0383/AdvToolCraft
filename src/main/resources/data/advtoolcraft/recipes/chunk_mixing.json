@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "advtoolcraft:copper_chunk"
+    },
+    {
+      "item": "advtoolcraft:copper_chunk"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}
