@@ -14,10 +14,10 @@ import net.minecraft.util.registry.Registry;
 
 public class AddBlocks {
     
-    public static final Block IRON_VAIN = registerblock("iron_vain", new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).luminance(3)), AdvToolCraft.ADV_CRAFT);
-    public static final Block GOLD_VAIN = registerblock("gold_vain", new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f)), AdvToolCraft.ADV_CRAFT);
-    public static final Block COPPER_VAIN = registerblock("copper_vain", new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f)), AdvToolCraft.ADV_CRAFT);
-    public static final Block COAL_VAIN = registerblock("coal_vain", new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f)), AdvToolCraft.ADV_CRAFT);
+    public static final Block IRON_VEIN = registerblock("iron_vein", new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), AdvToolCraft.ADV_CRAFT);
+    public static final Block GOLD_VEIN = registerblock("gold_vein", new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), AdvToolCraft.ADV_CRAFT);
+    public static final Block COPPER_VEIN = registerblock("copper_vein", new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), AdvToolCraft.ADV_CRAFT);
+    public static final Block COAL_VEIN = registerblock("coal_vein", new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), AdvToolCraft.ADV_CRAFT);
     private static Block registerblock(String name, Block block , ItemGroup group){
         registerblockitem(name , block , group);
         return Registry.register(Registry.BLOCK, new Identifier(AdvToolCraft.Mod_ID,name), block);

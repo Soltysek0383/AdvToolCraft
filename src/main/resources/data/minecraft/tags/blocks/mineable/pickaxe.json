@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "advtoolcraft:iron_vein",
+    "advtoolcraft:gold_vein",
+    "advtoolcraft:copper_vein",
+    "advtoolcraft:coal_vein"
+  ]
+}
